@@ -4,12 +4,5 @@ main: bazu.kingmonster.KingMonster
 api-version: 1.17
 authors: [ bazu ]
 commands:
-  winItem:
-    permission: op
-
-  broadItem:
-    permission: op
-
-  findItem:
-    permission: op
+  helpJustMonster:
 

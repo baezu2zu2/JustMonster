@@ -26,8 +26,6 @@ public final class KingMonster extends JavaPlugin {
             deathCount = Bukkit.getScoreboardManager().getMainScoreboard().registerNewObjective("death", "deathCount", ChatColor.RED+"쥬금");
         }
 
-        Bukkit.getPluginCommand("winItem").setExecutor(new Commands());
-        Bukkit.getPluginCommand("broadItem").setExecutor(new Commands());
-        Bukkit.getPluginCommand("findItem").setExecutor(new Commands());
+        getServer().getPluginCommand("helpJustMonster").setExecutor(new Commands());
     }
 }
